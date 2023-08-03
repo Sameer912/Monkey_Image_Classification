@@ -1,5 +1,5 @@
 ## Monkey classification: 
-#### This is a tutorial for monkey image classification in PyTorch which uses residual network (ResNet) and has already been trained on a large set of image datasets. This tutorial is an example of transfer learning where we take the pre-trained model, and either retrain it using our own dataset or just change the fully connected layer with the features pre-trained model and num of classes we need to predict. 
+#### This is a tutorial for monkey image classification in PyTorch which uses residual network (ResNet) and has already been trained on a large set of image datasets. This tutorial is an example of transfer learning where we take the pre-trained model, and either retrain it using our own dataset or just change the fully connected layer with the features pre-trained model and num of classes we need to predict. The dataset contains images of monkey of 10 different species.
 
 #### Since I am a beginner in this field, I have not gone through the hyperparameter tuning process, since the performance of the model is quite good even without hyperparameter tuning. If we want to increase the performance of the model, we can just set the ```pretrain= True``` but it would be like cheating because the model will use pre-trained weights, which definitely gives better performance. 
 
